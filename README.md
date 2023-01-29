@@ -19,6 +19,11 @@ ssh-keygen
 ```
 
 Add the deploy key to https://github.com/AmmanVMS/infoscreen/settings/keys
+You can get the deploy key with this command:
+
+```
+cat .ssh/id_rsa.pub
+```
 
 Clone the repository
 
