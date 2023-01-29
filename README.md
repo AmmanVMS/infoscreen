@@ -1,10 +1,16 @@
 # infoscreen
 
-The info screens synchronized in the makerspace
+The info screens synchronized in the makerspace.
+
+See
+- [MakerSpace Calendar](https://ammanvalley.foss.wales/t/calendar-for-the-makerspace/233)
+- [Advertisement Screens](https://ammanvalley.foss.wales/t/advertisement-screens-of-events/86)
+
+<img src="https://user-images.githubusercontent.com/564768/215332306-38d6bc3f-1a7d-4229-8568-2e8973433728.jpg" height="300px">
 
 ## Setup
 
-Setup a system with the user `pi`. All scripts with with links to that user. Once booted, you can follow these steps in the console of the pi.
+Setup a system `Raspberry Pi OS Legacy 32 bit` with the user `pi`. All scripts with with links to that user. Once booted, you can follow these steps in the console of the pi.
 
 Create SSH key:
 
