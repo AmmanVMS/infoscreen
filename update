@@ -6,6 +6,12 @@
 cd "`dirname \"$0\"`"
 
 (
+  date
+  hash_old="`git log -n 1 --pretty=format:'%H'`"
   git pull
-  reboot
-) | tee update.log
+  hash_new="`git log -n 1 --pretty=format:'%H'`"
+  if [ "$hash_old" != "$hash_new" ]; then
+    echo "Updated. Restarting!"
+    echo sudo reboot
+  fi
+) | tee -a update.log
