@@ -12,6 +12,6 @@ cd "`dirname \"$0\"`"
   hash_new="`git log -n 1 --pretty=format:'%H'`"
   if [ "$hash_old" != "$hash_new" ]; then
     echo "Updated. Restarting!"
-    echo sudo reboot
+    sudo reboot
   fi
 ) | tee -a update.log
