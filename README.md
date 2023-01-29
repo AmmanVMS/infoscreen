@@ -1,6 +1,6 @@
 # infoscreen
 
-The info screens synchronized in the makerspace.
+The info screens synchronized in the Amman Valley MakerSpace.
 
 See
 - [MakerSpace Calendar](https://ammanvalley.foss.wales/t/calendar-for-the-makerspace/233)
