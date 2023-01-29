@@ -1,0 +1,7 @@
+
+@xset s off
+@xset -dpms
+@xset s noblank
+@chromium --kiosk --incognito -disable-translate --app=https://open-web-calendar.hosted.quelltext.eu/calendar.html?specification_url=https://raw.githubusercontent.com/AmmanVMS/calendar/main/configuration.yml&tab=agenda&tabs=&controls=date
+@unclutter -idle 0
+@/home/pi/infoscreen/autorefresh-chromium.sh

@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+# turn the screen on or off
+#
+
+DISPLAY=:0 XAUTHORITY=/home/pi/.Xauthority xset dpms force $1

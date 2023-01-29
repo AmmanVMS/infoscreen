@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# update the repository
+#
+
+cd "`dirname \"$0\"`"
+
+(
+  git pull
+  reboot
+) | tee update.log
