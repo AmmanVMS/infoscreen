@@ -52,10 +52,10 @@ Add autostart of screen off and update `crontab -e`:
 
 ```
 # turn the screen off and on
-0 22 * * * /home/pi/infoscreen/screen-switch off
-0  7 * * * /home/pi/infoscreen/screen-switch on
+0 21 * * * /home/pi/infoscreen/screen-switch off
+0  9 * * * /home/pi/infoscreen/screen-switch on
 # update the repository
-0 5 * * * /home/pi/infoscreen/update
+0  9 * * * /home/pi/infoscreen/update
 ```
 
 
