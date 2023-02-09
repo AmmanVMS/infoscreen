@@ -58,6 +58,13 @@ Add autostart of screen off and update `crontab -e`:
 0  9 * * * /home/pi/infoscreen/update
 ```
 
+## Soldering
+
+TODO
+
+## Box
+
+You can print the box and the lid. You can use FreeCAD to [export the files](https://wiki.freecad.org/Export_to_STL_or_OBJ) as STL and print them on a 3d printer.
 
 
 
