@@ -1,0 +1,7 @@
+# FreeCAD
+*.stl
+*.FCStd1
+*.gcode
+
+UltimakerSD-Card
+
