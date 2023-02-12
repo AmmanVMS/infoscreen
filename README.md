@@ -58,10 +58,19 @@ Add autostart of screen off and update `crontab -e`:
 0  9 * * * /home/pi/infoscreen/update
 ```
 
-## Soldering
+## Soldering & Wiring
 
-Sources:
-- https://en.wikipedia.org/wiki/Electrical_wiring_in_the_United_Kingdom
+It is possible to switch the screen off.
+See these resources for the schematics:
+- https://en.wikipedia.org/wiki/Electrical_wiring_in_the_United_Kingdom  
+  This explains that the brown cable should be interrupted by the relais.
+- https://www.circuitbasics.com/5v-relays-in-the-raspberry-pi/  
+  This explains how to control the relais with the Raspberry Pi.
+- https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins  
+  This explains where the pins are.
+
+See the `screen-switch` script for details of where to plug the electronics into the Raspberry Pi.
+
 
 ## Box
 
