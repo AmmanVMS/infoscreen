@@ -3,4 +3,21 @@
 # turn the screen on or off
 #
 
+# 5V   5V    GND
+# 3.3V X     X    GPIO4
+export PIN=4
+
+# see https://manpages.ubuntu.com/manpages/jammy/man1/gpio.1.html
+gpio -g mode $PIN out
+if [ "$1" == "on" ]; then
+  gpio -g write $PIN 0
+elif [ "$1" == "off" ]; then
+  gpio -g write $PIN 1
+else
+  echo "use either on or off as argument"
+fi
+
+# see https://askubuntu.com/questions/963921/how-to-force-a-remote-server-to-wake-up-its-monitor-using-ssh
+
 DISPLAY=:0 XAUTHORITY=/home/pi/.Xauthority xset dpms force $1
+

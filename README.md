@@ -60,7 +60,8 @@ Add autostart of screen off and update `crontab -e`:
 
 ## Soldering
 
-TODO
+Sources:
+- https://en.wikipedia.org/wiki/Electrical_wiring_in_the_United_Kingdom
 
 ## Box
 
