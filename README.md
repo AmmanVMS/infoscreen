@@ -63,14 +63,16 @@ Add autostart of screen off and update `crontab -e`:
 It is possible to switch the screen off.
 See these resources for the schematics:
 - https://en.wikipedia.org/wiki/Electrical_wiring_in_the_United_Kingdom  
-  This explains that the brown cable should be interrupted by the relais.
+  This explains that the brown cable should be interrupted by the relay.
 - https://www.circuitbasics.com/5v-relays-in-the-raspberry-pi/  
-  This explains how to control the relais with the Raspberry Pi.
+  This explains how to control the relay with the Raspberry Pi.
 - https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins  
   This explains where the pins are.
 
 See the `screen-switch` script for details of where to plug the electronics into the Raspberry Pi.
 
+The relay interrupts the brown cable when the screen is switched off.
+It is preferable to have the relay interrupt to switch off because the start and restart of the Raspberry Pi show what is happening. 
 
 ## Box
 
