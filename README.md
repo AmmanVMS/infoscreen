@@ -77,8 +77,7 @@ It is preferable to have the relay interrupt to switch off because the start and
 ## Box
 
 You can print the box and the lid. You can use FreeCAD to [export the files](https://wiki.freecad.org/Export_to_STL_or_OBJ) as STL and print them on a 3d printer.
-
-
+The box has this size to fit in a VGA cable + adapter as well as plug sockets.
 
 ## Further Reading
 
