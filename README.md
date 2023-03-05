@@ -58,6 +58,12 @@ Add autostart of screen off and update `crontab -e`:
 0  9 * * * /home/pi/infoscreen/update
 ```
 
+Set the [time to update automatically](https://raspberrypi.stackexchange.com/a/68473/28161).
+
+```
+sudo timedatectl set-ntp True
+```
+
 ## Soldering & Wiring
 
 It is possible to switch the screen off.
